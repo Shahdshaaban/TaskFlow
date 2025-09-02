@@ -71,7 +71,7 @@ function Pricing() {
 
   return (
     <section id="pricing" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto py-10 px-6 sm:px-6 lg:px-8">
         <div
           ref={titleRef}
           className={`text-center mb-16 transition-all duration-700 ease-out ${

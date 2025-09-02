@@ -4,8 +4,10 @@
 
 @layer components {
   .card {
-    @apply text-center p-10 rounded-2xl border border-gray-100 mb-20 
-                transition-transform transform duration-300 hover:scale-110 hover:shadow-xl;
+    @apply text-center p-6 rounded-2xl border border-gray-100 mb-10
+           transition-transform transform duration-300 
+           hover:scale-105 hover:shadow-lg
+           md:p-10 md:mb-20 md:hover:scale-110 md:hover:shadow-xl;
   }
 
   .list {

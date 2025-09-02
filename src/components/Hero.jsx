@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 
-// Simple scroll animation hook
 const useScrollAnimation = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [element, setElement] = useState(null);
@@ -28,7 +27,7 @@ function Hero() {
   const [buttonRef, buttonVisible] = useScrollAnimation();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#f7eef7] via-[#fbf7fb] to-white pt-20 p-8 bg-white  ">
+    <div className=" py-20 px-6  bg-gradient-to-br from-[#f7eef7] via-[#fbf7fb] to-white  bg-white  ">
       <div
         ref={titleRef}
         className={`mt-60 text-center font-bold text-6xl pb-3 transition-all duration-700 ease-out ${
